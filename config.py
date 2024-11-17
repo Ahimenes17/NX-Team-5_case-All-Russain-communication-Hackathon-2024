@@ -8,5 +8,6 @@ dataForYandexSpeechKit = {
     'voice': 'marina',
     'emotion': 'friendly',
     'format': 'lpcm',
-    'sampleRateHertz': '8000'
+    'sampleRateHertz': '8000',
+    'speed': '0.7',
 }
