@@ -11,6 +11,6 @@
 ## Технологии
 
 В данном проекте были использованы следующие технологии:
-- [Asterisk] (https://www.asterisk.org/)
-- [Yandex_SpeechKit] (https://yandex.cloud/ru/services/speechkit)
+- [Asterisk](https://www.asterisk.org/)
+- [Yandex_SpeechKit](https://yandex.cloud/ru/services/speechkit)
 
