@@ -14,6 +14,10 @@
 - [Asterisk](https://www.asterisk.org/)
 - [Yandex SpeechKit](https://yandex.cloud/ru/services/speechkit)
 
+## Начало работы
+
+Кирилл, здесь набо будет описать, то как настроить программу.
+
 ## Тестирование
 
 Результаты тестов будут доступны в папке examples.
