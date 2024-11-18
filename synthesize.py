@@ -5,12 +5,15 @@ from config import *
 
 
 text = 'Здравствуйте. Вас приветствует общество с ограниченной ответственностью \"Лукоморье\". Мы можем предоставить вам Кота-Учёного, рассказывающего последние новости три девятого царства, Русалку, которая на ветвях сидит и постоянно соскальзывает, и остальных сказочных персонажей. Также в нашем ассортименте имеются: настойка из мухоморов, каша из топора, живая и мёртвая вода, трын-трава, сапоги-скороходы, скатерть-самобранка и другие интересные предметы быта. Вы также можете вызвать **на** дом Бабу Игу и Кощ+ея Бессм+ертного. Данный разговор записывается. ваш звонок очень важен для нас. Мы вас слушаем!'
+text2 = 'Вы позвонили в туристическое агенство \"Р+уссо Тур+исcто\". Мы предоставляем туристические поездки на остров Буян, Хутор близ Диканьки, Калинов мост и Лысую гору. Данный разговор записывается. ваш звонок очень важен для нас. Мы вас слушаем!'
+text3 = '- Ты же программист? В электрике шаришь, получается... Надо траншею под кабель прокопать метров 500.'
+
 folderId ="b1gbe99p9gigsng6gcd0"
 
 # Аутентификация через API-ключ.
 configure_credentials(
    yandex_credentials=creds.YandexCredentials(
-        iam_token='t1.9euelZrIz8-dm5iKx8aYm56PlZ7MzO3rnpWanp6Sl5vNmIuTkZSdks-Wys_l8_cXbxlG-e9beB5L_N3z91cdF0b571t4Hkv8zef1656Vmo7Jl4vLlouQl5vHm5TPzJqO7_zF656Vmo7Jl4vLlouQl5vHm5TPzJqO.sylfBISMcJP55out8MhDh1zTWCedCc5T7cGbf5bTsILNoEJH2pP57TKKM4Z3ocP9OT6TianiAptBR6URMmapAA'
+        iam_token='t1.9euelZqYm42JzZGdkJSJmsjHm4yPlu3rnpWanp6Sl5vNmIuTkZSdks-Wys_l8_d4WBVG-e8VfEoc_t3z9zgHE0b57xV8Shz-zef1656Vms2JzIqUysiSzYuNyMfJyJWZ7_zF656Vms2JzIqUysiSzYuNyMfJyJWZ.Hw2xgS0A0Jfsl1BNXII6smeFPT2tC7uzO3yAPiwcEquSYwRQx7r9Ik5NqnAITLoddxAsxwhBGPiRJbrJWINtDw'
    )
 )
 
@@ -52,4 +55,4 @@ if __name__ == '__main__':
    
    args = parser.parse_args()
 
-   synthesize(text, 'welcome1.wav')
+   synthesize(text2, 'welcome1.wav')
