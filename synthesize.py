@@ -55,4 +55,6 @@ if __name__ == '__main__':
    
    args = parser.parse_args()
 
-   synthesize(text2, 'welcome1.wav')
+   synthesize(text, '/var/sounds/welcome.wav')
+   synthesize(text2, '/var/sounds/welcome1.wav')
+   synthesize(text3, '/var/sounds/welcome2.wav')
